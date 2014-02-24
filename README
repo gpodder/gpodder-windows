@@ -1,0 +1,26 @@
+gPodder 4 Windows Build
+=======================
+
+Nothing to see here. Move along.
+Download gPodder 3 from http://gpodder.org/downloads
+
+Requires:
+
+   Qt 5.2.1
+   Python 3.3.3
+   PyOtherSide 1.2.0
+
+How to build:
+
+   1. Package all Python scripts:
+
+       C:\python33\python build_zip.py
+
+   2. Put all QML files into the qrc:
+
+       C:\python33\python build_qrc.py
+
+   3. Build the binary:
+
+       Open "gpodder.pro" in Qt Creator
+
